@@ -6,7 +6,7 @@ A small Python investigation agent backed by a read-only FastMCP server. It inve
 
 **Source publication build; the web demo is not deployed.** The included report is a deterministic offline fixture, not a live LLM result. The live Responses API path is implemented and tested with scripted provider responses; an actual model run requires your API key. This is a portfolio project, not a production incident response service.
 
-![TraceLens investigation workspace](docs/preview.png)
+![TraceLens investigation workspace](docs/preview.jpg)
 
 ## Run in two minutes
 
