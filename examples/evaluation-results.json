@@ -1,0 +1,109 @@
+{
+  "executed_at": "2026-10-14T22:47:36.393454+00:00",
+  "python": "3.11.9",
+  "platform": "Windows",
+  "command": "python scripts/evaluate.py",
+  "scope": "Offline integration and deterministic/scripted policy checks. No live LLM quality score.",
+  "live_llm": "not_run",
+  "docker": "not_run",
+  "passed": 19,
+  "failed": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "name": "test_mcp_catalog_and_read_only_handlers",
+      "status": "passed",
+      "seconds": 0.078
+    },
+    {
+      "name": "test_stdio_mcp_roundtrip",
+      "status": "passed",
+      "seconds": 6.986
+    },
+    {
+      "name": "test_time_window_bounds_and_truncation",
+      "status": "passed",
+      "seconds": 0.187
+    },
+    {
+      "name": "test_fixture_cause_and_every_claim_attributed",
+      "status": "passed",
+      "seconds": 0.661
+    },
+    {
+      "name": "test_evidence_validation_rejects_bad_reports[unknown_id]",
+      "status": "passed",
+      "seconds": 0.009
+    },
+    {
+      "name": "test_evidence_validation_rejects_bad_reports[unretrieved_id]",
+      "status": "passed",
+      "seconds": 0.012
+    },
+    {
+      "name": "test_evidence_validation_rejects_bad_reports[empty_citation]",
+      "status": "passed",
+      "seconds": 0.01
+    },
+    {
+      "name": "test_evidence_validation_rejects_bad_reports[wrong_fact]",
+      "status": "passed",
+      "seconds": 0.011
+    },
+    {
+      "name": "test_evidence_validation_rejects_bad_reports[wrong_mode]",
+      "status": "passed",
+      "seconds": 0.009
+    },
+    {
+      "name": "test_misleading_error_volume_does_not_change_fixture_diagnosis",
+      "status": "passed",
+      "seconds": 0.319
+    },
+    {
+      "name": "test_pool_evidence_ablation_removes_supported_conclusion",
+      "status": "passed",
+      "seconds": 0.344
+    },
+    {
+      "name": "test_injection_cannot_grant_permissions",
+      "status": "passed",
+      "seconds": 0.052
+    },
+    {
+      "name": "test_transient_failure_recovery_and_completed_resume",
+      "status": "passed",
+      "seconds": 0.448
+    },
+    {
+      "name": "test_partial_progress_reuses_successful_queries",
+      "status": "passed",
+      "seconds": 0.478
+    },
+    {
+      "name": "test_timeout_and_retry_budget_survive_restart",
+      "status": "passed",
+      "seconds": 0.271
+    },
+    {
+      "name": "test_tool_budget_enforced",
+      "status": "passed",
+      "seconds": 0.289
+    },
+    {
+      "name": "test_live_loop_scripted_injection_and_report_repair",
+      "status": "passed",
+      "seconds": 1.034
+    },
+    {
+      "name": "test_llm_timeout_is_bounded",
+      "status": "passed",
+      "seconds": 0.28
+    },
+    {
+      "name": "test_pending_live_call_resumes_without_repeating_provider_request",
+      "status": "passed",
+      "seconds": 0.113
+    }
+  ]
+}
